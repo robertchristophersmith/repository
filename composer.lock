@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8dc9713ff1771d7de25ddd737a287da",
+    "content-hash": "f8cfb07fb17d28604b90a17b8ac91842",
     "packages": [],
     "packages-dev": [
         {
@@ -528,16 +528,16 @@
         },
         {
             "name": "localheinz/php-cs-fixer-config",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/localheinz/php-cs-fixer-config.git",
-                "reference": "5794ae652ba852d6afafea2cfcd5175caeffaf9f"
+                "reference": "5846953cccd21e2b5e6e9a4dadb7daeeeb99c76f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/php-cs-fixer-config/zipball/5794ae652ba852d6afafea2cfcd5175caeffaf9f",
-                "reference": "5794ae652ba852d6afafea2cfcd5175caeffaf9f",
+                "url": "https://api.github.com/repos/localheinz/php-cs-fixer-config/zipball/5846953cccd21e2b5e6e9a4dadb7daeeeb99c76f",
+                "reference": "5846953cccd21e2b5e6e9a4dadb7daeeeb99c76f",
                 "shasum": ""
             },
             "require": {
@@ -565,7 +565,7 @@
                 }
             ],
             "description": "Provides a configuration factory and multiple rule sets for friendsofphp/php-cs-fixer.",
-            "time": "2017-09-11T20:07:56+00:00"
+            "time": "2017-09-12T21:30:57+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2385,7 +2385,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.3.8",
+            "version": "v3.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
