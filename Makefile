@@ -13,10 +13,7 @@ coverage: composer
 cs: composer
 	vendor/bin/php-cs-fixer fix --config=.php_cs --diff --verbose
 
-integration: composer
+test: composer
+	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml
 
-test: unit integration
-
-unit: composer
-	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
