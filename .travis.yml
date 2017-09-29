@@ -21,7 +21,7 @@ jobs:
   include:
     - stage: Style
 
-      php: 7.1
+      php: 7.0
 
       before_install:
         - source .travis/xdebug.sh
@@ -42,9 +42,7 @@ jobs:
 
       stage: Test
 
-      php: 7.1
-
-      env: WITH_COVERAGE=true
+      php: 7.0
 
       before_install:
         - source .travis/xdebug.sh
@@ -67,13 +65,17 @@ jobs:
 
     - <<: *TEST
 
-      php: 7.2
+      php: 7.1
 
-      env: WITH_COVERAGE=false
+      env: WITH_COVERAGE=true
+
+    - <<: *TEST
+
+      php: 7.2
 
     - stage: Deploy
 
-      php: 7.1
+      php: 7.0
 
       before_install:
         - source .travis/xdebug.sh
