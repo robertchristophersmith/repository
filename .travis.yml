@@ -51,7 +51,6 @@ jobs:
         - composer config github-oauth.github.com $GITHUB_TOKEN
 
       install:
-        - if [[ "$TRAVIS_PHP_VERSION" == "7.2" ]]; then composer remove --dev localheinz/php-cs-fixer-config; fi
         - composer install
 
       script:
