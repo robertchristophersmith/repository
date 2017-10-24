@@ -26,7 +26,7 @@ jobs:
         - source .travis/xdebug.sh
         - xdebug-disable
         - composer validate
-        - composer config github-oauth.github.com $GITHUB_TOKEN
+        - if [[ -n "$GITHUB_TOKEN" ]]; then composer config github-oauth.github.com $GITHUB_TOKEN; fi
 
       install:
         - composer install
