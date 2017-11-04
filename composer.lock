@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "79ef4b14e7298b8aa7ce4066dcf6b9dd",
+    "content-hash": "0473d6c9d29cbfbd49fdfe17f5947d70",
     "packages": [],
     "packages-dev": [
         {
@@ -508,16 +508,16 @@
         },
         {
             "name": "localheinz/test-util",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/localheinz/test-util.git",
-                "reference": "41b26554d485ea69ca9660a878bb789a331f8633"
+                "reference": "6c74682f16490fc5b3627a8acf92a956ef4177b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/test-util/zipball/41b26554d485ea69ca9660a878bb789a331f8633",
-                "reference": "41b26554d485ea69ca9660a878bb789a331f8633",
+                "url": "https://api.github.com/repos/localheinz/test-util/zipball/6c74682f16490fc5b3627a8acf92a956ef4177b4",
+                "reference": "6c74682f16490fc5b3627a8acf92a956ef4177b4",
                 "shasum": ""
             },
             "require": {
@@ -526,8 +526,8 @@
                 "php": "^7.0"
             },
             "require-dev": {
-                "localheinz/php-cs-fixer-config": "~1.6.2",
-                "phpunit/phpunit": "^6.3.1"
+                "localheinz/php-cs-fixer-config": "~1.7.0",
+                "phpunit/phpunit": "^6.4.3"
             },
             "type": "library",
             "autoload": {
@@ -552,7 +552,7 @@
                 "phpunit",
                 "test"
             ],
-            "time": "2017-10-27T13:12:45+00:00"
+            "time": "2017-11-04T15:44:48+00:00"
         },
         {
             "name": "myclabs/deep-copy",
