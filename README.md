@@ -1,6 +1,7 @@
 # repository
 
 [![Build Status](https://travis-ci.org/localheinz/repository.svg?branch=php-application)](https://travis-ci.org/localheinz/repository)
+[![codecov](https://codecov.io/gh/localheinz/repository/branch/php-application/graph/badge.svg)](https://codecov.io/gh/localheinz/repository)
 [![Latest Stable Version](https://poser.pugx.org/localheinz/repository/v/stable)](https://packagist.org/packages/localheinz/repository)
 [![Total Downloads](https://poser.pugx.org/localheinz/repository/downloads)](https://packagist.org/packages/localheinz/repository)
 
