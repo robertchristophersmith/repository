@@ -5,7 +5,7 @@ use Localheinz\PhpCsFixer\Config;
 $header = <<<EOF
 Copyright (c) 2017 Andreas Möller
 
-@link https://github.com/localheinz/repository
+@see https://github.com/localheinz/repository
 EOF;
 
 $config = Config\Factory::fromRuleSet(new Config\RuleSet\Php70($header));
