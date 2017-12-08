@@ -5,7 +5,7 @@ declare(strict_types=1);
 /**
  * Copyright (c) 2017 Andreas Möller.
  *
- * @link https://github.com/localheinz/repository
+ * @see https://github.com/localheinz/repository
  */
 
 namespace Localheinz\Repository\Test\Unit;
