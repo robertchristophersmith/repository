@@ -1,4 +1,4 @@
-.PHONY: composer coverage cs integration it test unit
+.PHONY: composer coverage cs infection integration it test
 
 it: cs test
 
@@ -13,7 +13,9 @@ coverage: composer
 cs: composer
 	vendor/bin/php-cs-fixer fix --config=.php_cs --diff --verbose
 
+infection: composer
+	vendor/bin/infection --min-covered-msi=80 --min-msi=80
+
 test: composer
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml
-
