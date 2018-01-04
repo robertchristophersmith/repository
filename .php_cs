@@ -3,7 +3,7 @@
 use Localheinz\PhpCsFixer\Config;
 
 $header = <<<EOF
-Copyright (c) 2017 Andreas Möller
+Copyright (c) 2018 Andreas Möller
 
 @see https://github.com/localheinz/repository
 EOF;

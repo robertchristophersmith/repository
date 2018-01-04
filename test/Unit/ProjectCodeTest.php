@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2017 Andreas Möller.
+ * Copyright (c) 2018 Andreas Möller.
  *
  * @see https://github.com/localheinz/repository
  */
