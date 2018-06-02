@@ -8,7 +8,7 @@ Copyright (c) 2018 Andreas Möller
 @see https://github.com/localheinz/repository
 EOF;
 
-$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php70($header));
+$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php71($header));
 
 $config->getFinder()->in(__DIR__);
 
